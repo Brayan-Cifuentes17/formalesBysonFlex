@@ -1,0 +1,63 @@
+
+ tipo_entero  a  asignar  10 ;
+ tipo_decimal  b  asignar  3.14 ;
+ tipo_decimal_grande  pi  asignar  3.14159 ;
+ tipo_booleano  isActive  asignar  verdadero ;
+ tipo_caracter  letter  asignar  A ;
+ String  name  asignar  "Juan" ;
+
+
+ a  asignar  a  sumar  b ;
+ b  asignar  b  restar  1 ;
+ a  asignar  a  dividir  2 ;
+
+
+condicional_si ( a  mayor_que  b ){
+imprimir( "a es mayor que b" );
+}condicional_sino {
+imprimir( "a no es mayor que b" );
+}
+
+ciclo_mientras ( a  menor_que  20 ){
+ a  asignar  a  sumar  1 ;
+}
+
+ciclo_para ( tipo_entero  i  asignar  0 ; i  menor_que  5 ; i  sumar  sumar ){
+imprimir( "Iteración "  sumar  i );
+}
+
+condicional_si ( isActive  y_logico ( a  igual_a  10 )){
+imprimir( "La condición es verdadera" );
+}
+
+condicional_si ( no_logico ( a  mayor_que  5 )){
+imprimir( "a no es mayor que 5" );
+}
+
+ Scanner  scanner  asignar  new  Scanner ( System  in );
+ String  input  asignar  scanner  nextLine ();
+
+condicional_si ( a  diferente_a  b ){
+imprimir( "a es diferente a b" );
+}
+
+condicional_si ( a  menor_o_igual_que  15 ){
+imprimir( "a es menor o igual que 15" );
+}
+
+condicional_si ( a  mayor_o_igual_que  5 ){
+imprimir( "a es mayor o igual que 5" );
+}
+
+
+condicional_si ( isActive ){
+imprimir( "La variable isActive es verdadera" );
+}condicional_sino {
+imprimir( "La variable isActive es falsa" );
+}
+
+ public  tipo_vacio  miFuncion (){
+imprimir( "Esto es una función" );
+}
+
+ miFuncion ();
